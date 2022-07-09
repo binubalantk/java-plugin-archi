@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf1bfb24-4df9-4e0e-99cc-58da8ae3b9ff" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-plugin-architecture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPluginManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/EventMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/Plugin-application-integration-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/abstracts/IEventHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/abstracts/IPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/abstracts/IPluginManger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/abstracts/IService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/models/EventMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/models/ServiceRequestModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/classes/org/binubalan/pluginIntegrations/models/ServiceResponseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-application-integration/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-example/src/main/java/org/binubalan/example/plugin/touch/ExamplePlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-example/src/main/resources/touch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/TouchHostConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/resources/touch-host.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-libs/.gitkeep" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BiArQ8biNsFbqNvhIBSBzlB9V0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/binu/misc/Java-plugin-architecture/shared-libs",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\binu\misc\Java-plugin-architecture\shared-libs" />
+      <recent name="C:\Users\binu\misc\Java-plugin-architecture\Plugin-application-integration\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\binu\misc\Java-plugin-architecture\Plugin-example\src\main\resources" />
+      <recent name="C:\Users\binu\misc\Java-plugin-architecture\plugins" />
+      <recent name="C:\Users\binu\misc\Java-plugin-architecture\Plugin-host-application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Run Host">
+    <configuration name="Run Host" type="Application" factoryName="Application">
+      <envs>
+        <env name="TOUCH_PLUGIN_DIR" value="plugins" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.binubalan.pluginHost.Main" />
+      <module name="Plugin-host-application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build:Plugin-application-integration" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="18" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Plugin-application-integration" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Build:Plugin-example" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Plugin-example" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Build:Plugin-host-application" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Plugin-host-application" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run Host" />
+      <item itemvalue="Maven.Build:Plugin-example" />
+      <item itemvalue="Maven.Build:Plugin-application-integration" />
+      <item itemvalue="Maven.Build:Plugin-host-application" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf1bfb24-4df9-4e0e-99cc-58da8ae3b9ff" name="Changes" comment="" />
+      <created>1657378732702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657378732702</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1657396363058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657396363058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+</project>

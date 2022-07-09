@@ -1,0 +1,5 @@
+{
+  "plugins": [
+    "Plugin-example-1.0-SNAPSHOT.jar"
+  ]
+}
