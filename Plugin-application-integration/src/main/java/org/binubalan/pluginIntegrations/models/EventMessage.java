@@ -1,7 +1,20 @@
 package org.binubalan.pluginIntegrations.models;
 
+/**
+ * Event Message
+ *
+ * @param <TData> payload data type
+ */
 public class EventMessage<TData> {
+
+    /**
+     * Subject to subscribe
+     */
     private String subject;
+
+    /**
+     * the data
+     */
     private TData data;
 
     public EventMessage() {

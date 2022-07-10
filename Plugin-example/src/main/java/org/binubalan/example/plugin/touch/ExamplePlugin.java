@@ -3,6 +3,9 @@ package org.binubalan.example.plugin.touch;
 import org.binubalan.pluginIntegrations.abstracts.IPlugin;
 import org.binubalan.pluginIntegrations.abstracts.IService;
 
+/**
+ * Example plugin bootstrap class implements the IPlugin interface
+ */
 public class ExamplePlugin implements IPlugin {
     @Override
     public void onInitialized(IService... services) {

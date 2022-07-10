@@ -13,21 +13,57 @@ import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+/**
+ * Plugin loader
+ */
 public class PluginLoader {
+
+    /**
+     * Plugin directory uri
+     */
     public static final String PLUGIN_DIR = getPluginDirFromEnv();
+
+    /**
+     * Plugin file extension
+     */
     public static final String PLUGIN_EXTENSION = ".jar";
+
+    /**
+     * Touch configuration file name
+     */
 
     public static final String PLUGIN_TOUCH_CONFIG = "touch.json";
 
+    /**
+     * Touch configuration key for bootstrap class
+     */
     public static final String TOUCH_CONFIG_BOOTSTRAP = "bootStrapClass";
+
+    /**
+     * Plugin directory environment key
+     */
     public static final String ENV_KEY_TOUCH_PLUGIN_DIR = "TOUCH_PLUGIN_DIR";
 
+    /**
+     * Plugin loader singleton instance
+     */
     private static PluginLoader instance;
 
+    /**
+     * The repository to store the loaded plugins
+     */
     private Map<String, String> repository = new HashMap<>();
 
+    /**
+     * Available jars in the plugin directory
+     */
     private LinkedList<String> availableJars;
 
+    /**
+     * Static method to create and get singleton instance
+     *
+     * @return PluginLoader
+     */
     public static PluginLoader getInstance() throws Exception {
         if (instance == null) {
             instance = new PluginLoader();
@@ -35,9 +71,14 @@ public class PluginLoader {
         return instance;
     }
 
-    private static String getPluginDirFromEnv(){
+    /**
+     * Method to get plugin directory from environment variable
+     *
+     * @return Plugin directory name
+     */
+    private static String getPluginDirFromEnv() {
         String pDir = System.getenv(ENV_KEY_TOUCH_PLUGIN_DIR);
-        if(pDir == null) {
+        if (pDir == null) {
             pDir = "plugins";
         }
 
@@ -48,6 +89,11 @@ public class PluginLoader {
         this.availableJars = getAllJars();
     }
 
+    /**
+     * Static method to get all jar files in the plugin directory
+     *
+     * @return List of jar file URIs
+     */
     public static LinkedList<String> getAllJars() throws Exception {
         final File directory = new File(PLUGIN_DIR);
         if (!directory.isDirectory() || !directory.exists()) {
@@ -69,14 +115,30 @@ public class PluginLoader {
         return jars;
     }
 
+    /**
+     * Method to check a Plugin is already loaded
+     *
+     * @param uri plugin URI
+     * @return True if loaded, False otherwise
+     */
     private boolean isLoaded(String uri) {
         return this.repository.containsKey(uri);
     }
 
+    /**
+     * Method to check if any Jar files are available
+     *
+     * @return True if available, False otherwise
+     */
     private boolean isJarsAvailable() {
         return this.availableJars != null && this.availableJars.size() > 0;
     }
 
+    /**
+     * Method to load the plugin from the jar URI
+     *
+     * @param uri the plugin URI
+     */
     public void load(String uri) throws Exception {
         if (!this.isJarsAvailable()) {
             System.out.println("No Plugins found");
@@ -100,6 +162,12 @@ public class PluginLoader {
         this.loadJar(uri, touchConfig);
     }
 
+    /**
+     * Method to load touch config from jar file
+     *
+     * @param jarFile the jar file
+     * @return JsonObject, config object
+     */
     public JsonObject loadConfig(JarFile jarFile) throws IOException {
         Enumeration<JarEntry> entries = jarFile.entries();
         while (entries.hasMoreElements()) {
@@ -117,6 +185,12 @@ public class PluginLoader {
         return null;
     }
 
+    /**
+     * Method to load the jar file
+     *
+     * @param uri         Jar file's URI
+     * @param touchConfig the Touch config object
+     */
     public void loadJar(String uri, JsonObject touchConfig) throws Exception {
         File jarF = new File(uri);
         URLClassLoader urlClassLoader = new URLClassLoader(

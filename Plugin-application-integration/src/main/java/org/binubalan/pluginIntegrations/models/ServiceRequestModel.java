@@ -1,6 +1,14 @@
 package org.binubalan.pluginIntegrations.models;
 
+
+/**
+ * The servicce request model
+ */
 public class ServiceRequestModel {
+
+    /**
+     * The request identifier
+     */
     private String requestId;
 
     public String getRequestId() {
