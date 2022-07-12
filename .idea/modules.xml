@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Angular-host-application.iml" filepath="$PROJECT_DIR$/Angular-host-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-plugin-architecture.iml" filepath="$PROJECT_DIR$/Java-plugin-architecture.iml" />
     </modules>
   </component>

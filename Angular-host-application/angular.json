@@ -1,0 +1,138 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "@binubalan/angular-plugin-interfaces": {
+      "projectType": "library",
+      "root": "projects/binubalan/angular-plugin-interfaces",
+      "sourceRoot": "projects/binubalan/angular-plugin-interfaces/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/binubalan/angular-plugin-interfaces/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/binubalan/angular-plugin-interfaces/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/binubalan/angular-plugin-interfaces/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/binubalan/angular-plugin-interfaces/src/test.ts",
+            "tsConfig": "projects/binubalan/angular-plugin-interfaces/tsconfig.spec.json",
+            "karmaConfig": "projects/binubalan/angular-plugin-interfaces/karma.conf.js"
+          }
+        }
+      }
+    },
+    "@binubalan/angular-plugin-host": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "projects/binubalan/angular-plugin-host",
+      "sourceRoot": "projects/binubalan/angular-plugin-host/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/binubalan/angular-plugin-host",
+            "index": "projects/binubalan/angular-plugin-host/src/index.html",
+            "main": "projects/binubalan/angular-plugin-host/src/main.ts",
+            "polyfills": "projects/binubalan/angular-plugin-host/src/polyfills.ts",
+            "tsConfig": "projects/binubalan/angular-plugin-host/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "projects/binubalan/angular-plugin-host/src/favicon.ico",
+              "projects/binubalan/angular-plugin-host/src/assets"
+            ],
+            "styles": [
+              "projects/binubalan/angular-plugin-host/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "projects/binubalan/angular-plugin-host/src/environments/environment.ts",
+                  "with": "projects/binubalan/angular-plugin-host/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "@binubalan/angular-plugin-host:build:production"
+            },
+            "development": {
+              "browserTarget": "@binubalan/angular-plugin-host:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "@binubalan/angular-plugin-host:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/binubalan/angular-plugin-host/src/test.ts",
+            "polyfills": "projects/binubalan/angular-plugin-host/src/polyfills.ts",
+            "tsConfig": "projects/binubalan/angular-plugin-host/tsconfig.spec.json",
+            "karmaConfig": "projects/binubalan/angular-plugin-host/karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "projects/binubalan/angular-plugin-host/src/favicon.ico",
+              "projects/binubalan/angular-plugin-host/src/assets"
+            ],
+            "styles": [
+              "projects/binubalan/angular-plugin-host/src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  }
+}

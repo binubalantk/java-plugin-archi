@@ -4,22 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1bfb24-4df9-4e0e-99cc-58da8ae3b9ff" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="bf1bfb24-4df9-4e0e-99cc-58da8ae3b9ff" name="Changes" comment="Added docs and readme">
+      <change afterPath="$PROJECT_DIR$/Angular-host-application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-host/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/ng-package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/lib/angular-plugin-interfaces.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/lib/angular-plugin-interfaces.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/lib/angular-plugin-interfaces.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/lib/angular-plugin-interfaces.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/lib/angular-plugin-interfaces.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/public-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/tsconfig.lib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/tsconfig.lib.prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/projects/binubalan/angular-plugin-interfaces/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular-host-application/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPluginManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IPluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/abstracts/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/EventMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/EventMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-application-integration/src/main/java/org/binubalan/pluginIntegrations/models/ServiceResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-example/src/main/java/org/binubalan/example/plugin/touch/ExamplePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-example/src/main/java/org/binubalan/example/plugin/touch/ExamplePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/PluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/TouchHostConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin-host-application/src/main/java/org/binubalan/pluginHost/core/helper/plugin/TouchHostConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +85,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/binu/misc/Java-plugin-architecture/shared-libs&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
@@ -201,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657397381262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added docs and readme">
+      <created>1657465582383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465582383</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +256,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added docs and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added docs and readme" />
   </component>
 </project>
