@@ -4,6 +4,8 @@ import { AngularPluginInterfacesModule } from '@binubalan/angular-plugin-interfa
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UserIdentityModule } from './userIdentity/userIdentity.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularPluginInterfacesModule
+    AngularPluginInterfacesModule,
+    UserIdentityModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

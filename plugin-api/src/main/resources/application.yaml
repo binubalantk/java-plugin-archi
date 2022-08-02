@@ -1,0 +1,48 @@
+spring:
+    application:
+        name: plugin-api-local
+    main:
+        allow-bean-definition-overriding: false
+    datasource:
+        url: jdbc:mysql://localhost:3306/drone_catalog
+        port: 3306
+        username: root
+        password:
+        driver: com.mysql.jdbc.Driver
+    jpa:
+        generate-ddl: true
+        properties:
+            hibernate:
+                enable_lazy_load_no_trans: true
+    hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        show_sql: true
+        hbm2ddl:
+            auto: create-only
+    entitymanager:
+        packagesToScan: com.binubalan.pluginarchi
+
+server:
+    port: 8080
+
+debug: true
+logging:
+    path: ./logs
+    level:
+        root: ERROR
+
+---
+spring:
+    profiles: dev
+    application:
+        name: plugin-api-dev
+server:
+    port: 9090
+
+---
+spring:
+    profiles: prod
+    application:
+        name: plugin-api
+server:
+    port: 80

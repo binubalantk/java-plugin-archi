@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/Plugin-application-integration/pom.xml" />
         <option value="$PROJECT_DIR$/Plugin-host-application/pom.xml" />
         <option value="$PROJECT_DIR$/Plugin-example/pom.xml" />
+        <option value="$PROJECT_DIR$/plugin-api/pom.xml" />
       </list>
     </option>
   </component>
